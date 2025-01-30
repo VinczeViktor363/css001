@@ -1,32 +1,21 @@
-# HTML és CSS 001
+# CSS Feladatok
 
-## Leírás
+## Bevezetés
 
-Ez a projekt egy egyszerű HTML oldalt tartalmaz, amelyhez egy üres CSS fájl tartozik. A feladatod az, hogy megformázd az oldalt a `styles.css` fájl segítségével.
+Ezek a feladatok a CSS mellett HTML feladatokat is tartalmaznak, amelyek célja a weboldalak formázásának elsajátítása.
 
-## Feladatok
+## Feladat
 
-1. Adj háttérszínt az oldalnak.
-2. Állítsd be a főcímet középre és növeld a betűméretét.
-3. Formázd meg a navigációs menüt:
-   - A linkek legyenek vízszintes sorban.
-   - Változzon a linkek színe hover állapotban.
-4. Adj a bekezdésekhez egy jól olvasható betűtípust.
-5. Használj CSS Grid vagy Flexbox elrendezést a tartalom szervezésére.
-6. Adj egy keretet és háttérszínt a `Feladatok` szekciónak.
-7. Készíts egy láblécet, amely tartalmazza a neved és az évszámot.
-8. Futtasd a `pytest test_styles.py` tesztet, hogy ellenőrizd a CSS fájl meglétét.
+A feladat során a következőket kell megvalósítani:
 
-## Fájlok
+1. Állítsa be az oldal nyelvét magyarra.
+2. Állítson be külső CSS fájlt, amely tartalmazza az összes stílusbeállítást.
+3. A `h1` elem középre legyen igazítva.
+4. A `h1` elem háttérszíne legyen `navy`, a szöveges tartalma pedig fehér.
+5. A teljes tartalmat egy `div` elembe helyezze, amelynek `container` osztálya van.
+6. A `container` div háttérszíne legyen arany.
 
-- `index.html` - Az alap HTML oldal
-- `styles.css` - Az üres CSS fájl, amelyben a stílusokat kell megadni
-- `test_styles.py` - Pytest tesztfájl a CSS ellenőrzésére
+### Használt fájlok:
 
-## Használat
-
-1. Szerkeszd a `styles.css` fájlt.
-2. Nyisd meg a `index.html` fájlt egy böngészőben, hogy lásd a változásokat.
-3. Futtasd a tesztet:
-   ```sh
-   pytest test_styles.py
+- **index.html**: A HTML struktúra.
+- **style.css**: A stílusokat tartalmazó CSS fájl.

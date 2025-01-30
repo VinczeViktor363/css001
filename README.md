@@ -1,5 +1,11 @@
 # CSS001
 
+* Szerző: Sallai András
+* Copyright © 2014, Sallai András
+* Szerkesztve: 2014-2024
+* Licenc: CC BY-SA 4.0
+* Web: https://szit.hu
+
 ## Bevezetés
 
 Ezek a feladatok a CSS mellett HTML feladatokat is tartalmaznak, amelyek célja a weboldalak formázásának elsajátítása.

@@ -8,7 +8,7 @@ def test_html_exists():
 
 def test_css_exists():
     # Ellenőrizzük, hogy a style.css fájl létezik-e
-    with open('style.css', 'r', encoding='utf-8') as f:
+    with open('styles.css', 'r', encoding='utf-8') as f:
         content = f.read()
         assert content, "A style.css fájl üres!"
 
@@ -21,7 +21,7 @@ def test_html_structure():
 
 def test_css_structure():
     # Ellenőrizzük, hogy a CSS fájl tartalmazza-e a h1 és container stílusokat
-    with open('style.css', 'r', encoding='utf-8') as f:
+    with open('styles.css', 'r', encoding='utf-8') as f:
         content = f.read()
         assert 'h1 {' in content, "A h1 stílus nem található a CSS fájlban!"
         assert '.container {' in content, "A container stílus nem található a CSS fájlban!"

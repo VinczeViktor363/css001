@@ -25,3 +25,5 @@ A feladat során a következőket kell megvalósítani:
 
 - **index.html**: A HTML struktúra.
 - **style.css**: A stílusokat tartalmazó CSS fájl.
+
+![Minta](minta_0001.png)
